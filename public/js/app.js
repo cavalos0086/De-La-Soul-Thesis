@@ -1,3 +1,4 @@
+"use strict";
 (function(){
 var app = angular.module('soundGlomerate', []);
 
@@ -26,6 +27,8 @@ app.controller('SearchController', ['$scope', function($scope) {
     this.search = {};
     // console.log(search.genre);
     // console.log(date);
+
+
   };
 
   
