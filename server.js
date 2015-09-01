@@ -20,7 +20,8 @@ app.listen(port);
 console.log('Listenning to port', port);
 
 // routes will go here
-app.get('/home', function(req, res){
+app.post('/home', function(req, res){
+	console.log('post on server.js');
 	router.requestHandler('/home', req, res);
 });
 
