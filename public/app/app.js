@@ -29,6 +29,9 @@ angular.module('soundGlomerate', [ // declare all controllers and services
         },
         'search@landing':{
           templateUrl: '/app/search/search.html'
+        },
+        'results@landing':{
+          templateUrl:'/app/results/results.html'
         }
       } 
     })
