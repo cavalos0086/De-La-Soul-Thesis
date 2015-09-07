@@ -1,7 +1,9 @@
-angular.module('soundGlomerate.filter', [])
+angular.module('soundGlomerate.filter', ['soundGlomerate.results'])
 
 .controller('FilterController', function ($scope, Filter) {
   $scope.genresEB = Filter.genresEB;
-  $scope.Answers = {};
+  $scope.checkedVal = {};
+
+  
 });
 
