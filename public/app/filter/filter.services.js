@@ -105,3 +105,4 @@ angular.module('soundGlomerate.filterFactory', [])
     tempData:resultsObj
   };
 });
+

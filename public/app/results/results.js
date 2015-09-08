@@ -18,12 +18,11 @@ angular.module('soundGlomerate.results', ['soundGlomerate.resultsFactory'])
 // ------- On success, store and parse data 
 // (function(){
 
+
 .controller('ResultsController', ['$scope', 'Results', function ($scope, Results) {
-  
-
-
-  $scope.apiData = Results.resultsData;
+ 
+  $scope.apiData = Results.events;
 
     
-  }]);
+}]);
 
