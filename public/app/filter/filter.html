@@ -1,5 +1,5 @@
-<div ng-controller="FilterController">
-  <div id="filterOptions">
+<div ng-controller="FilterController" class="row">
+  <div id="filterOptions" >
     <p>Music Genre</p>
     <div ng-repeat="(key,value) in genresEB">
       <input type="checkbox" ng-model="checkedVal[key]" ngTrueValue="true" ngFalseValue="false">{{key}}
