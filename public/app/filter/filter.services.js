@@ -5,6 +5,8 @@ angular.module('soundGlomerate.filterFactory', [])
 	var genresEB = {
     'Alternative': "false", 'BluesJazz': "false", 'Classical': "false", 'Country': "false", 'Cultural': "false", 'EDMElectronic': "false", 'Folk': "false", 'HipHopRap': "false", 'Indie': "false", 'Latin': "false", 'Metal': "false", 'Opera': "false", 'Other': "false", 'Pop': "false", 'RB': "false", 'Reggae': "false",'ReligiousSpiritual': "false", 'Rock': "false", 'Top40': "false"};
 
+
+
   // setTimeout( console.log.bind(console, 'genresEB', genresEB), 10000) ;
 
   var resultsObj = [{
@@ -40,7 +42,7 @@ angular.module('soundGlomerate.filterFactory', [])
     "organizer_id": "1634522120", 
     "venue_id": "11200115", 
     "category_id": "103", 
-    "subcategory_id": "3005", 
+    "subcategory_id": "3011", 
     "format_id": "11", 
     "resource_uri": "https://www.eventbriteapi.com/v3/events/18172733134/", 
     "series_id": "18172732131", 
