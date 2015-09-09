@@ -1,4 +1,5 @@
 <div ng-controller="FilterController" class="row">
+
   <div id="filterOptions" class="col-sm-4">
     <p>Music Genre</p>
     <a href="#/results" ng-click="setCurrentGenre(all)">All</a>
@@ -7,6 +8,7 @@
     </div>
     <hr/>
   </div> <!--  end of col-sm-4 -->
+
   <div class="col-sm-8">
     <div ng-repeat="(key, value) in tempData | filter:currentGenre" style="margin-top:40px;border:1px solid red">
       <p>{{value.name}}</p>
@@ -14,6 +16,7 @@
       <p>{{genres[value.subcategory_id]}}</p>
     </div>
   </div> <!-- end of col-sm-8  -->
-</div>
+
+</div><!-- end of ng-controller-->
 
 
