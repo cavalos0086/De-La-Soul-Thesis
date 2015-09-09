@@ -20,8 +20,6 @@
     "tests"
   ],
   "dependencies": {
-
-    "angular-google-maps": "~2.2.0",
     "angular-ui-date": "~0.0.8",
     "angular-ui-router": "~0.2.11",
     "pickadate": "~3.5.6",
