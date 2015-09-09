@@ -15,8 +15,8 @@
 // ------- eventbrite API info (send)
 // ------- On success, store and parse data 
 
-angular.module('soundGlomerate.mapFactory', [])
+// angular.module('soundGlomerate.mapFactory', [])
 
-.factory('Map',function($http){
+// .factory('Map',function($http){
 	
-})
+// })

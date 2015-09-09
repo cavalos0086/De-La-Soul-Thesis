@@ -11,8 +11,11 @@ angular.module('soundGlomerate.filter', ['soundGlomerate.results'])
 
   $scope.setCurrentGenre = function(genre){
     $scope.currentGenre = genre;
-    alert($scope.currentGenre);
+    console.log($scope.currentGenre);
   };
-  // setTimeout(console.log.bind(console, $scope.currentGenre), 3000);
+
+
+
+  console.log($scope.currentGenre);
 });
 
