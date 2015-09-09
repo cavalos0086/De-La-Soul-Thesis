@@ -3,14 +3,13 @@
   <div id="filterOptions" class="col-sm-4">
     <p>Music Genre</p>
     <div ng-repeat="(key,value) in genresEB">
-      <input type="checkbox" ng-model="checkedVal[key]" ngTrueValue="true" ngFalseValue="false">{{key}}
+      <button ng-click="setCurrentGenre(key)">{{key}}</button>
     </div>
-
     <hr/>
   </div> <!--  end of col-sm-4 -->
 
   <div class="col-sm-8">
-    <div ng-repeat="(key, value) in tempData" style="margin-top:40px;border:1px solid red" ng-show="checkedVal">
+    <div ng-repeat="(key, value) in tempData | filter:{currentGenre:genres[value.subcategory_id]}  " style="margin-top:40px;border:1px solid red">
       <p>{{value.name}}</p>
       <p>{{value.id}}</p>
       <p>{{value.subcategory_id}}</p>
