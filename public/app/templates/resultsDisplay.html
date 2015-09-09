@@ -1,7 +1,14 @@
 <div ui-view="search"></div>
 
+<div class="row">
 
-<div ui-view="results"></div>
+  <div class="col-sm-3">
+    <div ui-view="map"></div>
+    <div ui-view="filter"></div>    
+  </div>
 
-<div ui-view="map"></div>
-<div ui-view="filter"></div>
+  <div class="col-sm-9">
+    <div ui-view="results"></div>
+  </div>
+</div>
+
