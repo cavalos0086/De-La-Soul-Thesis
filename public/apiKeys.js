@@ -7,4 +7,4 @@ angular.module('soundGlomerate.keysFactory', [])
   }
 
   return apiKeysFactory;
-})
+});
