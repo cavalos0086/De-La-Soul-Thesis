@@ -1,7 +1,7 @@
 
-angular.module('soundGlomerate.searchFactory', ['soundGlomerate.keysFactory'])
+angular.module('soundGlomerate.searchFactory', [])
 
-.service('Search', ['$http', 'APIkeys', function($http, APIkeys){ // naming the factory 'Search', requiring the $http module to make API calls
+.service('Search', ['$http', function($http, APIkeys){ // naming the factory 'Search', requiring the $http module to make API calls
 
   var events = []; 
   var LatLong =[];
