@@ -4,7 +4,6 @@ angular.module('soundGlomerate.keysFactory', [])
   
   var apiKeysFactory = {
     eventBriteKey: 'MD33DX7LJOIGAGCBYRF7',
-  }
-
+  };
   return apiKeysFactory;
 });
