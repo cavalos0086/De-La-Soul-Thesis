@@ -1,8 +1,12 @@
 
+<<<<<<< HEAD
 
 angular.module('soundGlomerate.searchFactory', ['soundGlomerate.keysFactory'])
+=======
+angular.module('soundGlomerate.searchFactory', [])
+>>>>>>> b73ece994ed3f62a06c1230737c34b5d9d7fbd9d
 
-.service('Search', ['$http', 'APIkeys', function($http, APIkeys){ // naming the factory 'Search', requiring the $http module to make API calls
+.service('Search', ['$http', function($http, APIkeys){ // naming the factory 'Search', requiring the $http module to make API calls
 
   var events = []; 
   var latLong =[];
@@ -35,6 +39,7 @@ angular.module('soundGlomerate.searchFactory', ['soundGlomerate.keysFactory'])
     return $http({ // the direct API call withß the user specificed input as the fxn's parameters
       method: 'GET',
       url: 'https://www.eventbriteapi.com/v3/events/search/?sort_by=date&venue.city=' + city + '&venue.region=CA'+startDate+endDate+'&categories=103&expand=venue&token=' + apiKey
+
     })
     .then(function(res){ // this is a promise that waits for the API to return info
       console.log('on api request');
