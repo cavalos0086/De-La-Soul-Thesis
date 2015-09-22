@@ -7,6 +7,7 @@ var port = process.env.PORT || 8000;
 
 app.listen(port);
 
+console.log('env', process.env);
 console.log('Listening on', port);
 var results = [];
 
