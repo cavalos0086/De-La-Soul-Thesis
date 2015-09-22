@@ -1,10 +1,7 @@
 
-<<<<<<< HEAD
 
-angular.module('soundGlomerate.searchFactory', ['soundGlomerate.keysFactory'])
-=======
+// angular.module('soundGlomerate.searchFactory', ['soundGlomerate.keysFactory'])
 angular.module('soundGlomerate.searchFactory', [])
->>>>>>> b73ece994ed3f62a06c1230737c34b5d9d7fbd9d
 
 .service('Search', ['$http', function($http, APIkeys){ // naming the factory 'Search', requiring the $http module to make API calls
 
